@@ -25,7 +25,9 @@ This is the part of the project for the front end web developement. Our goal is 
     2. Download the Community Edition
 
  * ### Github Desktop Program (optional)
-    1. https://desktop.github.com/
+    There are a few desktop programs you can use for a Graphical interface to git, instead of using a CLI. Choose whichever one you like.
+    * https://gitextensions.github.io/
+    * https://desktop.github.com/
 
 ## Downloading from Github
 
