@@ -64,6 +64,7 @@ In Pycharm, open the Web folder for the project you downloaded off Github.
     Please note when you start the server, it will continue to run even when you close Pycharm.
     * Go to `Tools > Run manage.py Task...` 
     * In the console:
+        * If it's the first time running, execute `migrate` to create the database.
         * Type and execute`runserver` to start it.
         * Later, after you're done testing or you need to close it down to do some changes, click the Stop button in the console to stop it.
     * Click on the URL (usually http://127.0.0.1:8000/) in the console, or copy and paste it to your web browser.
