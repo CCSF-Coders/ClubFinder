@@ -55,7 +55,7 @@ In Pycharm, open the Web folder for the project you downloaded off Github.
     * Go to `Tools > Run manage.py Task...` 
     * In the console:
         * Type and execute`runserver` to start it.
-        * Click the Stop button in the console to stop it.
+        * Later, after you're done testing or you need to close it down to do some changes, click the Stop button in the console to stop it.
     * Click on the URL (usually http://127.0.0.1:8000/) in the console, or copy and paste it to your web browser.
 
 Congratulations! If you were able to view a web page of some sort, then you have successfully set up your project and are ready for development.
