@@ -1,6 +1,16 @@
 # Web Development Group
 This is the part of the project for the front end web developement. Our goal is to make a website that allows users to submit and retrieve information from the database. This README will explain how to set it up on your computer.
 
+* [Installing the required applications](#installing-the-required-applications)
+    * [Python](#python)
+    * [Django 1.10.2](#django-1102)
+    * [Jetbrains Pycharm](#jetbrains-pycharm)
+    * [Github Desktop Program (recommended)](#github-desktop-program-recommended)
+* [Downloading from Github](#downloading-from-github)
+* [Setting up and running the server locally](#setting-up-and-running-the-server-locally)
+    * [Settings](#settings) 
+    * [Starting/Stopping the server](#startingstopping-the-server)
+
 ## Installing the required applications
 
 * ###  Python 
@@ -24,7 +34,7 @@ This is the part of the project for the front end web developement. Our goal is 
     1. https://www.jetbrains.com/pycharm/download/
     2. Download the Community Edition
 
- * ### Github Desktop Program (optional)
+* ### Github Desktop Program (recommended)
     There are a few desktop programs you can use for a Graphical interface to git, instead of using a CLI. Choose whichever one you like.
     * https://gitextensions.github.io/
     * https://desktop.github.com/
@@ -37,7 +47,7 @@ You can either use the desktop program to download it, download it from the webs
 ## Setting up and running the server locally
 In Pycharm, open the Web folder for the project you downloaded off Github.
 
-* ## Settings
+* ### Settings
     The Project Settings, which you can access via `File > Settings`, should be already set properly. You should check the following anyway:
 
     * **Project: Web** > Project Interpreter  
@@ -46,11 +56,11 @@ In Pycharm, open the Web folder for the project you downloaded off Github.
     
     * **Languages & Frameworks** > Django  
         * Django Project Support ☑
-        * Django Project Root: *where you saved the repository*\ClubFinder\Web\front_end
-        * Settings: front_end\settings.py
-        * Manage Script: manage.py
+        * Django Project Root: `where you saved the repository\ClubFinder\Web\front_end`
+        * Settings: `front_end\settings.py`
+        * Manage Script: `manage.py`
         
- * ## Starting/Stopping the server
+ * ### Starting/Stopping the server
     Please note when you start the server, it will continue to run even when you close Pycharm.
     * Go to `Tools > Run manage.py Task...` 
     * In the console:
