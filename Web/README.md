@@ -61,12 +61,11 @@ In Pycharm, open the Web folder for the project you downloaded off Github.
         * Manage Script: `manage.py`
         
  * ### Starting/Stopping the server
-    Please note when you start the server, it will continue to run even when you close Pycharm.
-    * Go to `Tools > Run manage.py Task...` 
-    * In the console:
-        * If it's the first time running, execute `migrate` to create the database.
-        * Type and execute`runserver` to start it.
-        * Later, after you're done testing or you need to close it down to do some changes, click the Stop button in the console to stop it.
-    * Click on the URL (usually http://127.0.0.1:8000/) in the console, or copy and paste it to your web browser.
+    
+    * Open up your Command Prompt (Windows) or Terminal (Mac/Linx) and navigate to the `...\ClubFinder\Web\front_end` directory.
+    * If it's the first time running, execute `migrate` to create the database.
+    * Type and execute`runserver` to start it.
+    * In your web browser, go to the URL given after the server starts. It's  http://127.0.0.1:8000/ by default.
+    * To close the server, hit CTRL+C in the Command Prompt/Terminal
 
 Congratulations! If you were able to view a web page of some sort, then you have successfully set up your project and are ready for development.
